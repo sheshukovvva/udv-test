@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>UDV tracker</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css"/>
+    <link rel="stylesheet" href="../image/icomoon/style.css"/>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="contain-1">
+        <main class="main">
+          <div class="block">
+            <div class="title-block">Блок 1</div>
+            <button class="btn btn-dsbld" disabled>Добавить виджет</button>
+            <div class="widget edit">
+              <div class="top">
+                <div class="title-widget">Погода на сегодня</div>
+                <div class="icon hover">
+                  <i class="icon-S icon-Save"></i>
+                </div>
+                <div class="icon hover">
+                  <i class="icon-S icon-Close"></i>
+                </div>
+              </div>
+              <div class="weather">
+                <div class="icon">
+                  <i class="icon-M icon-Map_Pin"></i>
+                </div>
+                <select class="city-selector" required name="city">
+                  <option value="Moscow">Москва</option>
+                  <option value="Saint-Petersburg">Санкт-Петербург</option>
+                  <option value="Ekaterinburg">Екатеринбург</option>
+                  <option value="Perm">Пермь</option>
+                  <option value="Kazan">Казань</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="block">
+            <div class="title-block">Блок 2</div>
+            <button class="btn btn-cta">Добавить виджет</button>
+            <div class="widget">
+              <div class="top">
+                <div class="title-widget">Погода в Екатеринбурге</div>
+                <div class="icon hover">
+                  <i class="icon-S icon-Arrow_Left_Right"></i>
+                </div>
+                <div class="icon hover">
+                  <i class="icon-S icon-Edit_Pencil"></i>
+                </div>
+                <div class="icon hover">
+                  <i class="icon-S icon-Close"></i>
+                </div>
+              </div>
+              <div class="weather">
+                <div class="icon">
+                  <i class="icon-L icon-Rain"></i>
+                </div>
+                <div class="weather-params">
+                  <div class="temp">27 °C</div>
+                  <div class="params-item">
+                    <div class="temp-border">
+                      <div class="icon">
+                        <i class="icon-S icon-Arrow_Down temp-min"></i>
+                      </div>
+                      <div class="temp temp-min">20 °</div>
+                    </div>
+                    <div class="temp-border">
+                      <div class="icon">
+                        <i class="icon-S icon-Arrow_Up temp-max"></i>
+                      </div>
+                      <div class="temp temp-max">28 °</div>
+                    </div>
+                  </div>
+                  <div class="params-item">
+                    <div class="icon">
+                      <i class=" icon-S icon-Humidity"></i>
+                    </div>
+                    <div class="humidity">66 %</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="block">
+            <div class="title-block">Блок 3</div>
+            <button class="btn btn-dsbld" disabled>Добавить виджет</button>
+            <div class="widget edit">
+              <div class="top">
+                <div class="title-widget">Выберите тип виджета</div>
+                <div class="icon hover">
+                  <i class="icon-S icon-Close"></i>
+                </div>
+              </div>
+              <div class="constructor">
+                <div class="widget-type">
+                  <div class="icon">
+                    <i class="icon-M icon-Sunny"></i>
+                  </div>
+                  <div class="widget-name">
+                    Погода
+                  </div>
+                </div>
+                <div class="widget-type">
+                  <div class="icon">
+                    <i class="icon-M icon-Add_Plus"></i>
+                  </div>
+                  <div class="widget-name">
+                    Другое
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>

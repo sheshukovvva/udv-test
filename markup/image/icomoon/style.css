@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?c5hnqw');
+  src:  url('fonts/icomoon.eot?c5hnqw#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?c5hnqw') format('truetype'),
+    url('fonts/icomoon.woff?c5hnqw') format('woff'),
+    url('fonts/icomoon.svg?c5hnqw#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Arrow_Left_Right:before {
+  content: "\e90e";
+}
+.icon-Add_Plus:before {
+  content: "\e90d";
+}
+.icon-Map_Pin:before {
+  content: "\e90c";
+}
+.icon-Save:before {
+  content: "\e90b";
+}
+.icon-Edit_Pencil:before {
+  content: "\e906";
+}
+.icon-Arrow_Down:before {
+  content: "\e907";
+}
+.icon-Arrow_Up:before {
+  content: "\e908";
+}
+.icon-Close:before {
+  content: "\e909";
+}
+.icon-Humidity:before {
+  content: "\e90a";
+}
+.icon-Cloudy:before {
+  content: "\e905";
+}
+.icon-Rain:before {
+  content: "\e900";
+}
+.icon-Snow:before {
+  content: "\e901";
+}
+.icon-Sunny:before {
+  content: "\e902";
+}
+.icon-Thunderstorm:before {
+  content: "\e903";
+}
+.icon-Wind:before {
+  content: "\e904";
+}
